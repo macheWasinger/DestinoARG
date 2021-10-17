@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Encode Sans", sans-serif;
+}
+
+.bloquePadre_provincias {
+  width: 100%;
+  height: auto;
+  padding-top: 60px;
+  margin-top: 65px;
+}
+
+.container_titulo-slogan {
+  position: relative;
+  top: 10px;
+}
+
+.container_titulo-slogan .title-provincias {
+  color: rgba(39, 157, 251, 1);
+  font-size: 50px !important;
+  font-weight: 700;
+  position: relative;
+  top: 5px;
+}
+
+.container_titulo-slogan .slogan-provincias {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgb(75, 75, 75);
+  margin-top: 13px;
+}
+
+.container-provincias {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-images {
+  width: 100%;
+  height: 400px;
+  max-width: 1200px;
+  margin: -10px auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-image {
+  position: relative;
+  top: 11%;
+  width: 249px;
+  height: 250px;
+  border-radius: 10px;
+  transition: all 0.7s;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.container-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.container-image:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  z-index: 2;
+}
+
+.container-image h2 {
+  position: absolute;
+  width: 100%;
+  transition: all 1s;
+  top: 25px !important;
+  font-size: 23px;
+  opacity: 0;
+  font-weight: 700;
+  color: #fff;
+  text-transform: none;
+  text-shadow: 1px 0 0 black, 0 1px 0 black, -1px 0 0 black, 0 -1px 0 black;
+}
+
+.container-image:hover h2 {
+  transition: all 2s;
+  opacity: 1;
+}
+
+.container-provincias .container_button-arrow {
+  background-color: rgba(39, 157, 251, 1);
+  border-radius: 5px;
+  margin: auto;
+  padding: 6px !important;
+  display: flex;
+  position: relative;
+  top: -50px !important;
+  cursor: pointer;
+}
+
+.container-provincias .container_button-arrow i {
+  transition: all 0.4s;
+  font-size: 0;
+  color: #fff !important; 
+  position: relative;
+  right: 13px;
+  top: 2px;
+}
+
+.container-provincias .container_button-arrow:hover i {
+  font-size: 15px;
+  transition: all 0.4s;
+  top: 2px;
+  right: 1px !important;
+}
+
+.container_button-arrow .button_ver-mas {
+  color: #fff !important;
+}
+
+.container-provincias .container_button-arrow:hover .button_ver-mas {
+  margin-left: 3px !important;
+}
+
+
+.bloquePadre_provincias span {
+  margin: auto;
+  border-radius: 6px;
+  padding: 4px 8px 8px 8px;
+  position: relative;
+  top: 25px;
+}
+
+.bloquePadre_provincias a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff !important;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.bloquePadre_provincias span {
+  cursor: pointer;
+}
+
+.bloquePadre_provincias span:hover i {
+  margin-left: 8.5px;
+}
+
+.parqueNacional,
+.patrimonioMundial {
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.parqueNacional {
+  width: 100%;
+  background-image: url("https://www.mikereyfman.com/Photography-Landscape-Nature/Fitzroy-Cerro-Torre-Perito-Moreno-Patagonia-Argentina/big/MR0103.jpg");
+
+  top: -20px;
+}
+
+.patrimonioMundial {
+  background-image: url("https://turismo-en-argentina.com/wp-content/uploads/2020/07/14074819238_6c00f7f002_o.jpg");
+
+  top: 0px;
+  background-position: 0 -65px;
+}
+
+.container_titulo-slogan .title-provincias {
+  font-size: 45px;
+  color: rgba(39, 157, 251, 1);
+}
+
+.parqueNacional .container_title-slogan_nationalPark,
+.patrimonioMundial .container_title-slogan_patrimonioMundial {
+  height: auto;
+  position: relative;
+  top: 29%;
+}
+
+.parqueNacional .container_title-slogan_nationalPark .span-nationalPark,
+.patrimonioMundial .container_title-slogan_patrimonioMundial,
+.span-patrimonioMundial {
+  border: 1px solid #fff !important;
+}
+
+.patrimonioMundial .container_title-slogan_patrimonioMundial {
+  border: 0 !important;
+}
+
+.span-nationalPark i,
+.span-patrimonioMundial i {
+  font-size: 0;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.span-nationalPark:hover,
+.span-patrimonioMundial:hover {
+  width: 9%;
+}
+
+.span-nationalPark:hover i,
+.span-patrimonioMundial:hover i {
+  font-size: 16px;
+  transition: all 0.4s;
+  margin-left: 15px;
+}
+
+.parqueNacional .container_title-slogan_nationalPark .title_nationalPark,
+.parqueNacional .container_title-slogan_nationalPark .slogan_nationalPark,
+.patrimonioMundial
+  .container_title-slogan_patrimonioMundial
+  .title_patrimonioMundial,
+.patrimonioMundial
+  .container_title-slogan_patrimonioMundial
+  .slogan_patrimonioMundial {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.parqueNacional .container_title-slogan_nationalPark .title_nationalPark,
+.patrimonioMundial
+  .container_title-slogan_patrimonioMundial
+  .title_patrimonioMundial {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.parqueNacional .container_title-slogan_nationalPark .slogan_nationalPark,
+.patrimonioMundial
+  .container_title-slogan_patrimonioMundial
+  .slogan_patrimonioMundial {
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: 300 !important;
+}
+
+.parqueNacional
+  .container_title-slogan_nationalPark
+  .span-nationalPark
+  .buttom_ver-mas_nationalPark,
+.patrimonioMundial
+  .container_title-slogan_patrimonioMundial
+  .span-patrimonioMundial
+  .buttom_ver-mas_patrimonioMundial {
+  margin: auto;
+  color: #fff;
+}
+
+.parqueNacional i, .patrimonioMundial i {
+  color: #fff !important;
+}
+
+/************** RESPONSIVE ***************/
+
+@media screen and (max-width: 800px) {
+  .bloquePadre_provincias {
+    padding-top: 45px;
+  }
+
+  .container_titulo-slogan .title-provincias {
+    font-size: 48px !important;
+  }
+
+  .container_titulo-slogan .slogan-provincias {
+    font-size: 16px;
+    position: relative;
+    top: -7px;
+  }
+
+  .container-images {
+    height: 330px;
+    max-width: 1400px !important;
+    justify-content: space-between;
+    overflow: scroll;
+  }
+
+  .container-image {
+    width: 450px !important;
+    height: 300px;
+    top: 15px;
+    left: -11px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .container-image img {
+    width: 450px;
+    height: 300px;
+  }
+
+  .container-image h2 {
+    opacity: 1;
+    font-size: 25px;
+  }
+
+  .container-provincias .container_button-arrow {
+    top: -15px !important;
+    margin-top: 30px;
+    background-color: rgba(39, 157, 251, 1);
+  }
+
+  .container-provincias .container_button-arrow .button_ver-mas {
+    color: #fff;
+  }
+
+  .bloquePadre_provincias
+    .container-provincias_queHacer
+    span
+    .buttom_descubrir-mas {
+    font-size: 13px;
+    height: 14px;
+  }
+
+  .bloquePadre_provincias
+  .container-provincias_queHacer
+  span:hover i {
+    display: none;
+  }
+
+  .bloquePadre_provincias .parqueNacional,
+  .bloquePadre_provincias .patrimonioMundial {
+    height: 250px;
+    top: 24px;
+    background-position: 0 -33px;
+  }
+
+  .bloquePadre_provincias .parqueNacional {
+    top: 10px;
+  }
+
+  .parqueNacional .container_title-slogan_nationalPark .title_nationalPark,
+  .patrimonioMundial
+    .container_title-slogan_patrimonioMundial
+    .title_patrimonioMundial {
+    font-size: 35px;
+  }
+
+  .span-nationalPark,
+  .span-patrimonioMundial {
+    position: relative;
+    top: 0 !important;
+  }
+
+  .span-nationalPark:hover i,
+  .span-patrimonioMundial:hover i {
+    display: none;
+  }
+
+  .container_title-slogan_nationalPark {
+    top: 21.5% !important;
+  }
+
+  .container_title-slogan_patrimonioMundial {
+    position: relative;
+    top: 17% !important;
+  }
+
+  .span-nationalPark .buttom_ver-mas_nationalPark,
+  .span-patrimonioMundial .buttom_ver-mas_patrimonioMundial {
+    font-size: 13px;
+  }
+
+  .container_title-slogan_nationalPark .slogan_nationalPark,
+  .container_title-slogan_patrimonioMundial .slogan_patrimonioMundial {
+    font-size: 16px !important;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .bloquePadre_provincias .parqueNacional,
+  .bloquePadre_provincias .patrimonioMundial {
+    background-attachment: unset;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+}

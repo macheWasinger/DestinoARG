@@ -1,0 +1,117 @@
+.container-dondeIr {
+  width: 100%;
+  height: auto;
+  padding-top: 65px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-dondeIr .container_title-subtitulo {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-dondeIr .title-dondeIr {
+  font-size: 50px;
+  font-weight: 700;
+  color: rgba(39, 157, 251, 1);
+  position: relative;
+  top: 10px;
+}
+
+.container-dondeIr .subtitulo-dondeIr {
+  font-size: 20px !important;
+  font-weight: 300;
+  color: rgb(75, 75, 75);
+  text-transform: uppercase;
+  position: relative;
+  top: 10px;
+}
+
+.container-dondeIr .container-provincias_DondeIr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+
+.container-dondeIr .container_data-prov {
+  width: 32%;
+  height: 320px;
+  border: 2px solid rgb(190, 188, 188);
+  margin-top: 15px;
+  transition-delay: 0.1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.container-dondeIr .container_data-prov:hover {
+  border: 2px solid rgba(39, 157, 251, 1);
+  cursor: pointer;
+}
+
+.container-dondeIr .container_data-prov .img-escudo {
+  width: 14%;
+  margin: auto;
+}
+
+.container-dondeIr .container_data-prov .title_provincia {
+  font-size: 25px;
+  color: rgba(39, 157, 251, 1);
+}
+
+.container-dondeIr .container_data-prov .data-provincia {
+  width: 90%;
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 15.5px;
+  font-weight: 300;
+  color: rgb(75, 75, 75);
+  text-align: center;
+}
+
+/************** RESPONSIVE ***************/
+
+@media screen and (max-width: 800px) {
+  .container-dondeIr {
+    margin-top: 24px;
+    padding-top: 90px;
+  }
+
+  .container-dondeIr .container_title-subtitulo {
+    position: relative;
+    bottom: 13px !important;
+  }
+
+  .container-dondeIr .title-dondeIr {
+    font-size: 48px;
+    top: -10px;
+  }
+
+  .container-dondeIr .subtitulo-dondeIr {
+    width: 90%;
+    font-size: 16px !important;
+    margin: auto;
+    top: -5px;
+  }
+
+  .container-dondeIr .container_data-prov {
+    width: 100%;
+    margin-top: 0;
+    border: 0;
+    border-bottom: 2px solid rgb(190, 188, 188);
+  }
+
+  .container-dondeIr .container_data-prov:hover {
+    pointer-events: none !important;
+  }
+
+  .container-dondeIr .container_data-prov .img-escudo {
+    width: 12%;
+  }
+}
