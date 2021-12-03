@@ -10,7 +10,7 @@ const Contactos = () => {
                     <h1 className="title-formulario">Contactos</h1>
                     <p className="parrafo-contact">¿Deseas hacernos una consulta? Contáctanos, responderemos tu mensaje lo más breve posible.</p>
                     
-                    <img className="style-geoArg" src={geoArg} alt="" />
+                    <img className="style-geoArg" src={geoArg} alt="" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300" />
                 </div>
                 <div className="container-form">
                     <input type="text" name="Nombre" placeholder="Nombre" className="input-form" />

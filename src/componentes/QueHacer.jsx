@@ -16,19 +16,19 @@ const QueHacer = () => {
 
             <div className="container-provincias">
                 <div className="container-images">
-                    <div className="container-image">
+                    <div className="container-image" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="650">
                         <h2>Buenos Aires</h2>
                         <img src="https://pbs.twimg.com/media/D7Q2CMdW4AIJ5Iu.jpg" alt="" />
                     </div>
-                    <div className="container-image">
+                    <div className="container-image" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="500">
                         <h2>Córdoba</h2>
                         <img src="https://media.istockphoto.com/photos/san-roque-lake-villa-carlos-paz-crdoba-argentina-picture-id1162724795?k=20&m=1162724795&s=612x612&w=0&h=5gTKDB7sY1qCMS6jSevSN3rZ3gzF4KQKKF0pubK5cks=" alt="" />
                     </div>
-                    <div className="container-image">
+                    <div className="container-image" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="350">
                         <h2>Chubut</h2>
                         <img src="https://www.redcabanias.com/blog/wp-content/uploads/2012/12/66817.jpg" alt="" />
                     </div>
-                    <div className="container-image">
+                    <div className="container-image" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="200">
                         <h2>Misiones</h2>
                         <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/2QPUXE7NBVFDDL3UTLRXUOW5EY.jpg" alt="" />
                     </div>
@@ -40,7 +40,7 @@ const QueHacer = () => {
             </div>
 
             <div className="parqueNacional">
-                <div className="container_title-slogan_nationalPark">
+                <div className="container_title-slogan_nationalPark" data-aos="zoom-in" data-aos-duration="800">
                     <h1 className="title_nationalPark">Parques Nacionales</h1>
 
                     <p className="slogan_nationalPark">Conectate con nuestra naturaleza.</p>
@@ -52,7 +52,7 @@ const QueHacer = () => {
                 </div>
             </div>
             <div className="patrimonioMundial">
-                <div className="container_title-slogan_patrimonioMundial">
+                <div className="container_title-slogan_patrimonioMundial" data-aos="zoom-in" data-aos-duration="800">
                     <h1 className="title_patrimonioMundial">Patrimonios Mundiales</h1>
 
                     <p className="slogan_patrimonioMundial">Cerros multicolores, parques nacionales, grandes escenarios de hielo, ruinas y estancias jesuíticas y mucho más.

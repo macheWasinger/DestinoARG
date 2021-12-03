@@ -11,8 +11,8 @@ const FondoVideo = () => {
           <source src={ArgentinaDiversidad} />
         </video>
 
-        <div className="rectanguloBlanco">
-          <h1 className="text-rectangulo">Sueña, planea tu viaje, y disfruta.</h1>
+        <div className="rectanguloBlanco" data-aos="fade-right" data-aos-delay="1300">
+          <h1 className="text-rectangulo" data-aos="fade-up" data-aos-delay="1900">Sueña, planea tu viaje, y disfruta.</h1>
         </div>
       </div>
     );
