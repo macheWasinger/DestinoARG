@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/destinoarg/static/css/main.ee86ee73.chunk.css",
+    "main.js": "/destinoarg/static/js/main.151b0e2b.chunk.js",
+    "main.js.map": "/destinoarg/static/js/main.151b0e2b.chunk.js.map",
+    "runtime-main.js": "/destinoarg/static/js/runtime-main.44f60c41.js",
+    "runtime-main.js.map": "/destinoarg/static/js/runtime-main.44f60c41.js.map",
+    "static/css/2.d286e487.chunk.css": "/destinoarg/static/css/2.d286e487.chunk.css",
+    "static/js/2.5a8eb006.chunk.js": "/destinoarg/static/js/2.5a8eb006.chunk.js",
+    "static/js/2.5a8eb006.chunk.js.map": "/destinoarg/static/js/2.5a8eb006.chunk.js.map",
+    "index.html": "/destinoarg/index.html",
+    "static/css/2.d286e487.chunk.css.map": "/destinoarg/static/css/2.d286e487.chunk.css.map",
+    "static/css/main.ee86ee73.chunk.css.map": "/destinoarg/static/css/main.ee86ee73.chunk.css.map",
+    "static/js/2.5a8eb006.chunk.js.LICENSE.txt": "/destinoarg/static/js/2.5a8eb006.chunk.js.LICENSE.txt",
+    "static/media/ArgentinaDiversidad.fc1cbfd3.mp4": "/destinoarg/static/media/ArgentinaDiversidad.fc1cbfd3.mp4",
+    "static/media/arrow.ad8213a9.svg": "/destinoarg/static/media/arrow.ad8213a9.svg",
+    "static/media/geografiaArgentina.bd1da6ce.png": "/destinoarg/static/media/geografiaArgentina.bd1da6ce.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44f60c41.js",
+    "static/css/2.d286e487.chunk.css",
+    "static/js/2.5a8eb006.chunk.js",
+    "static/css/main.ee86ee73.chunk.css",
+    "static/js/main.151b0e2b.chunk.js"
+  ]
+}
