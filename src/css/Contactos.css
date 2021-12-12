@@ -302,7 +302,7 @@ input {
     top: 40px;
     float: left;
     right: 0;
-    left: 150px;
+    left: 30%;
   }
 
  .container-general .container_redes-sociales .red-social {
@@ -326,8 +326,8 @@ input {
   }
 
  .container_arrow-up {
-    width: 9vw;
-    height: 8.5vw;
+    width: 40px;
+    height: 40px;
     margin: auto;
     position: relative;
     top: 0% !important;
@@ -341,7 +341,6 @@ input {
     margin: auto;
     font-size: 2.6vw;
     color: black;
-    float: inline-end;
-    margin-top: 11% !important;
+    margin-top: 115px !important;
   }
 }

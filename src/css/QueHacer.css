@@ -335,11 +335,11 @@
     height: 50vw;
     background-position: 0 -33px;
     position: relative;
-    top: 3%;
+    top: 15px;
   }
 
   .patrimonioMundial {
-    top: 4% !important;
+    top: 25px !important;
   }
 
   .parqueNacional .container_title-slogan_nationalPark .title_nationalPark,
