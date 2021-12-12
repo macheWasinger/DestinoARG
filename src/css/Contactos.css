@@ -12,12 +12,12 @@
 }
 
 .container-contact {
-  width: 1044px;
-  height: 780px;
+  width: 70vw;
+  height: 56.4vw;
+  box-shadow: 2px 2px 9px rgb(175, 175, 175);
   margin: auto;
   padding-top: 10px !important;
   margin-top: 45px;
-  box-shadow: 1px 1px 10px #c9c9c9;
   border-radius: 25px; 
   display: flex;
   justify-content: space-between;
@@ -265,10 +265,15 @@ input {
   }
 
   .container-contact .container-form {
-    width: 100%;
+    width: 80%;
     height: auto;
+    margin: auto;
     top: -10px;
     right: 0;
+  }
+  
+  input, textarea {
+    width: 95% !important;
   }
 
   .container-contact .container-form .input-form,
@@ -286,14 +291,15 @@ input {
   }
 
   .container-contact .container-form .input-form_botonEnviar {
-    top: 22px;
-    left: 32px;
+    width: 35vw !important;
+    top: 4.3%;
+    left: 2%;
   }
 
   .container-general .container_redes-sociales {
     width: 40%;
     height: 55px;
-    top: 5%;
+    top: 40px;
     float: left;
     right: 0;
     left: 150px;
@@ -320,12 +326,12 @@ input {
   }
 
  .container_arrow-up {
-    width: 42px;
-    height: 42px;
+    width: 9vw;
+    height: 8.5vw;
     margin: auto;
     position: relative;
-    top: 20px !important;
-    right: 40px;
+    top: 0% !important;
+    right: 11%;
     box-shadow: none;
     background-color: #353535;
   }
@@ -333,7 +339,7 @@ input {
   .datos-developer {
     width: 100%;
     margin: auto;
-    font-size: 14px;
+    font-size: 2.6vw;
     color: black;
     float: inline-end;
     margin-top: 11% !important;

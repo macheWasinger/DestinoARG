@@ -156,7 +156,7 @@
 .parqueNacional,
 .patrimonioMundial {
   width: 100%;
-  height: 500px;
+  height: 35vw;
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
@@ -332,13 +332,12 @@
 
   .bloquePadre_provincias .parqueNacional,
   .bloquePadre_provincias .patrimonioMundial {
-    height: 250px;
-    top: 24px;
+    height: 50vw;
     background-position: 0 -33px;
   }
 
   .bloquePadre_provincias .parqueNacional {
-    top: 10px;
+    top: -12px !important;
   }
 
   .parqueNacional .container_title-slogan_nationalPark .title_nationalPark,
