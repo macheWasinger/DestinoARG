@@ -339,6 +339,7 @@
   }
 
   .patrimonioMundial {
+    height: 49.6vw !important;
     top: 25px !important;
   }
 
@@ -385,7 +386,6 @@
   .bloquePadre_provincias .parqueNacional,
   .bloquePadre_provincias .patrimonioMundial {
     background-attachment: unset;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    box-shadow: 0 0 5px #000;
   }
 }
