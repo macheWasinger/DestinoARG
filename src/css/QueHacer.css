@@ -244,7 +244,7 @@
   .slogan_patrimonioMundial {
   margin-top: 15px;
   font-size: 25px;
-  font-weight: 300 !important;
+  font-weight: 300;
 }
 
 .parqueNacional
@@ -334,17 +334,19 @@
   .bloquePadre_provincias .patrimonioMundial {
     height: 50vw;
     background-position: 0 -33px;
+    position: relative;
+    top: 3%;
   }
 
-  .bloquePadre_provincias .parqueNacional {
-    top: -12px !important;
+  .patrimonioMundial {
+    top: 4% !important;
   }
 
   .parqueNacional .container_title-slogan_nationalPark .title_nationalPark,
   .patrimonioMundial
     .container_title-slogan_patrimonioMundial
     .title_patrimonioMundial {
-    font-size: 35px;
+    font-size: 7vw;
   }
 
   .span-nationalPark,
@@ -369,12 +371,13 @@
 
   .span-nationalPark .buttom_ver-mas_nationalPark,
   .span-patrimonioMundial .buttom_ver-mas_patrimonioMundial {
-    font-size: 13px;
+    font-size: 2.5vw;
   }
 
   .container_title-slogan_nationalPark .slogan_nationalPark,
   .container_title-slogan_patrimonioMundial .slogan_patrimonioMundial {
-    font-size: 16px !important;
+    font-size: 3vw !important;
+    font-weight: 500 !important;
     position: relative;
     bottom: 10px;
   }
