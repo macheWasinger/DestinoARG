@@ -4,6 +4,7 @@
   padding-top: 65px;
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
 
 .container-dondeIr .container_title-subtitulo {

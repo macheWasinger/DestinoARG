@@ -9,6 +9,7 @@
   width: 100%;
   height: auto;
   padding-top: 75px;
+  overflow: auto;
 }
 
 .container-datosUtiles .title-datosUitles {

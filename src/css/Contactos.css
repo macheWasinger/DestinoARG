@@ -8,6 +8,7 @@
 .container-general {
   width: 100%;
   height: auto;
+  overflow: auto;
 }
 
 .container-contact {
@@ -225,7 +226,6 @@ input {
 /************ RESPONSIVE *************/
 @media screen and (max-width: 800px) {
   .container-general {
-    width: 100%;
     position: relative;
     bottom: 15px;
     padding-top: 5px;
