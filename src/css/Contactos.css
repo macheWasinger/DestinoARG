@@ -8,7 +8,7 @@
 .container-general {
   width: 100%;
   height: auto;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .container-contact {
@@ -215,12 +215,12 @@ input {
 }
 
 .datos-developer {
-  font-size: 16px;
+  font-size: 1.2vw;
   font-weight: 400;
   color: black;
   text-transform: uppercase;
   margin-left: 290px;
-  margin-top: 15px;
+  margin-top: 1.5%;
 }
 
 /************ RESPONSIVE *************/
@@ -293,7 +293,7 @@ input {
   .container-general .container_redes-sociales {
     width: 40%;
     height: 55px;
-    top: 50px;
+    top: 5%;
     float: left;
     right: 0;
     left: 150px;
@@ -336,6 +336,6 @@ input {
     font-size: 14px;
     color: black;
     float: inline-end;
-    margin-top: 65px !important;
+    margin-top: 11% !important;
   }
 }
