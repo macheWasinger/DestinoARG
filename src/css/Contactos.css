@@ -38,7 +38,7 @@
 
 .container-contact .container_title-form .parrafo-contact {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1.3vw;
   top: 15px;
 }
 
@@ -65,8 +65,9 @@
   width: 69%;
   height: 545px;
   position: relative;
-  top: 24px;
-  margin: auto;
+  top: 14px;
+  left: 40px;
+  /* margin: auto; */
 }
 
 .container-contact .container-form {
