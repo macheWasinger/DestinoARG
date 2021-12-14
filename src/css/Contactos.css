@@ -167,6 +167,7 @@ input {
   width: 47px;
   height: 47px;
   border: 2px solid #2e9bfa;
+  transition: all 0.5s;
 }
 
 .container-general .container_redes-sociales .red-social .logo {
@@ -180,6 +181,7 @@ input {
 
 .container-general .container_redes-sociales .red-social:hover {
   background-color: #2e9bfa;
+  transition: all 0.5s;
 }
 
 .container-general .container_redes-sociales .red-social:hover i {

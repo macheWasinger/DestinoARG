@@ -236,6 +236,7 @@
   .title_patrimonioMundial {
   font-size: 55px;
   font-weight: 700;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
 }
 
 .parqueNacional .container_title-slogan_nationalPark .slogan_nationalPark,
