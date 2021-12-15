@@ -256,12 +256,12 @@ input:focus {
     display: block;
     padding-top: 9px;
     position: relative;
-    bottom: 80px;
-    left: 80px;
+    bottom: 13%;
+    left: 30%;
   }
 
   .item-li-home i {
-    font-size: 35px;
+    font-size: 7vw;
   }
 
   .item-li {
